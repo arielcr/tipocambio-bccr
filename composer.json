@@ -1,0 +1,21 @@
+{
+    "name": "arielcr/tipocambio-bccr",
+    "description": "Libreria para obtener el tipo de cambio del BCCR y realizar conversiones.",
+    "homepage": "https://github.com/arielcr/tipocambio-bccr",
+    "license": "MIT",
+    "keywords": ["cambio","dolares","colones", "bccr"],
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Ariel Orozco",
+            "email": "bassplayer85@gmail.com",
+            "homepage": "http://arielorozco.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "IndicadoresBccr": "src/"
+        }
+    }
+}
