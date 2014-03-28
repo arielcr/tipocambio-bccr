@@ -49,7 +49,7 @@ class Indicador
     public static function convertirColonesDolares($monto)
     {
         $tipo_cambio = self::obtenerTipoCambio(self::COMPRA);
-        return ($tipo_cambio > 0) ? number_format($monto / $tipo_cambio) : 0;
+        return ($tipo_cambio > 0) ? number_format(($monto / $tipo_cambio), 2, '.', ',') : 0;
     }
 
     /**
@@ -61,7 +61,7 @@ class Indicador
     public static function convertirDolaresColones($monto)
     {
         $tipo_cambio = self::obtenerTipoCambio(self::COMPRA);
-        return ($tipo_cambio > 0) ? number_format($monto * $tipo_cambio) : 0;
+        return ($tipo_cambio > 0) ? number_format(($monto * $tipo_cambio), 2, '.', ',') : 0;
     }
 
 } 
