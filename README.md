@@ -19,7 +19,7 @@ Puedes instalar esta libreria usando [composer](http://getcomposer.org/).  Solam
  
         $tipo_cambio = IndicadoresBccr\Indicador::obtenerTipoCambio();
 
-    Esta funcion recibe como parámetro el tipo de cambio deseado, para compra es `IndicadoresBccr\Indicador::COMPRA` y       para venta `IndicadoresBccr\Indicador::VENTA`. Por defecto es `COMPRA`.
+    Esta funcion recibe como parámetro el tipo de cambio deseado, para compra es `IndicadoresBccr\Indicador::COMPRA` y      para venta `IndicadoresBccr\Indicador::VENTA`. Por defecto es `COMPRA`. También puede recibir un segundo parametro      indicando la fecha del tipo de cambio, por defecto se utiliza el dia actual.
 
 - Convertir de colones a dolares:
 
